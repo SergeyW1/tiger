@@ -72,7 +72,7 @@ body {
 }
 
 
-.nav-menu a {
+.nav-menu_item {
 	width: 31%;
 	display: block;
 	color: #fff;
@@ -119,12 +119,12 @@ body {
 	display: none;
 }
 
-.nav-menu a:first-child {
+.nav-menu_item--color {
 	color: yellow;
 	font-style: italic;
 }
 
-.nav-menu a:hover {
+.nav-menu_item:hover {
 	color: rgb(236, 79, 236);
 	background-color: rgba(104, 104, 104, 0.501);
 	border-radius: 10px;
@@ -189,7 +189,7 @@ body {
 	text-decoration: none;
 }
 
-.aside-conteiner .aside-conteiner_item:nth-child(1) {
+.aside-conteiner_item-first {
 	background: url(/img/elephant-bitmap.png);
 	background-position-x: -31px;
 	background-size: 166px;
@@ -197,7 +197,7 @@ body {
 	width: 104px;
 }
 
-.aside-conteiner .aside-conteiner_item:nth-child(2) {
+.aside-conteiner_item-second {
 	background: url(/img/fox-bitmap.svg);
 	background-position-x: -32px;
 	background-size: 166px;
@@ -207,7 +207,7 @@ body {
 	margin-top: -43px;
 }
 
-.aside-conteiner .aside-conteiner_item:nth-child(3) {
+.aside-conteiner_item-third {
 	background: url(/img/rhino-bitmap.png);
 	background-size: 166px;
 	background-position-x: -33px;
@@ -225,7 +225,7 @@ body {
 	padding-top: 180px;
 }
 
-.conteiner-footer a:hover {
+.social-media:hover {
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -286,7 +286,7 @@ body {
 		display: none;
 	}
 
-	.nav-menu a {
+	.nav-menu_item {
 		font-size: 16px;
 		padding-right: 70px;
 	}
@@ -318,7 +318,7 @@ body {
 		width: 56%;
 	}
 
-	.nav-menu a {
+	.nav-menu_item {
 		font-size: 16px;
 		padding-right: 70px;
 	}
@@ -361,7 +361,7 @@ body {
 		padding-left: 855px;
 	}
 
-	.aside-conteiner .aside-conteiner_item:nth-child(1) {
+	.aside-conteiner_item-first {
 		background-size: 230px;
 		background-position-y: 2px;
 		background-position-x: -45px;
@@ -369,7 +369,7 @@ body {
 		height: 228px;
 	}
 
-	.aside-conteiner .aside-conteiner_item:nth-child(2) {
+	.aside-conteiner_item-second {
 		background-size: 230px;
 		background-position-y: 2px;
 		background-position-x: -45px;
@@ -378,7 +378,7 @@ body {
 		margin-left: 9px;
 	}
 
-	.aside-conteiner .aside-conteiner_item:nth-child(3) {
+	.aside-conteiner_item-third {
 		background-size: 230px;
 		background-position-x: -45px;
 		width: 141px;
@@ -403,7 +403,7 @@ body {
 		width: 17%;
 	}
 
-	.conteiner-footer a {
+	.social-media {
 		border-top: 11px solid black;
 		width: 20%;
 	}
@@ -435,7 +435,7 @@ body {
 		width: 64%;
 	}
 
-	.nav-menu a{
+	.nav-menu_item {
 		font-size: 20px;
 	}
 
